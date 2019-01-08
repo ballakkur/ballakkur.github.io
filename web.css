@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  li {
+    float: left;
+    color: white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#skill{
+    height: auto;
+}
+#proj{
+    height: auto;
+}
+#ac{
+    height: auto; 
+}
+#about{
+    height: auto;
+}
+#foot{
+    height: 15vh;
+}
+section h1{
+    margin: 0;
+    /* padding: 10px; */
+    margin-top: 60px;
+    /* text-align: center;
+    font-family: sans-serif;
+    font-size: 5em;
+    color: #262626;
+    background: #fff;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+    box-shadow: 0 5px 25px rgba(0,0,0,.5); */
+}
+.title{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    color: #262626;
+    /* background: #fff; */
+    /* text-shadow: 0 2px 5px rgba(0,0,0,.5); */
+    /* box-shadow: 0 5px 25px rgba(0,0,0,.5); */
+}
+/* img{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+    max-width: 100px;
+    height: auto;
+} */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 50px; */
+    /* height: 90vh; */
+}
+.child{
+    widows: 30%;
+    padding: 50px;
+    /* height: auto; */
+}
+.icon
+{
+	padding:3px;
+	 width: 30px;
+     height: 30px;
+     
+}
+.posi{
+    /* margin:auto; */
+    text-align:center;
+}
+.cont{
+    font-size: 5vw;
+    
+}
+#image{
+    background: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimages5.alphacoders.com%2F486%2Fthumb-1920-486292.jpg&f=1") no-repeat center center fixed #000;
+    
+}
+@media screen and (min-width: 600px) {
+    .cont{
+
+        font-size: 26px;
+    }
+    
+  }
